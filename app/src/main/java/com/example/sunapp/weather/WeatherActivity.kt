@@ -9,9 +9,10 @@ import com.example.sunapp.R
 import com.example.sunapp.base.BaseActivity
 import com.example.sunapp.base.holder.Cell
 import com.example.sunapp.base.test.TestPresenterModel
+import com.example.sunapp.databinding.ActivityWeatherBinding
 import com.example.sunapp.databinding.TestItemBinding
 
-class WeatherActivity: BaseActivity<com.example.sunapp.databinding.ActivityWeatherBinding>() {
+class WeatherActivity: BaseActivity<ActivityWeatherBinding>() {
 
     override val layoutId: Int
         get() = R.layout.activity_weather
